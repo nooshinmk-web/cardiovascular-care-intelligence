@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated data
+data/raw/
+data/processed/
+data/synthetic/
+
+# Local files
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
